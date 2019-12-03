@@ -30,7 +30,7 @@ In groups, do a Google search the following topics:
 
 - Relational Databases
 - SQL (Structured Query Language)
-- Postgresql
+- MySQL
 - ORM (Object Relational Mapper)
 - Active Record
 
