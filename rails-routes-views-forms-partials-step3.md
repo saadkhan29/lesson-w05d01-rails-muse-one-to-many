@@ -652,7 +652,7 @@ end
 
 Hooray! So over the past 4 lessons we've accomplished the following:
 
-- Installed Postgresql
+- Installed MySQL
 - Created a new Rails app and added the Materialize gem
 - Created Artist and Song models
 - Set up a one-to-many relationship between Artist and Song
