@@ -476,9 +476,15 @@ end
       				<i class="large material-icons">mode_edit</i>
     			</a>
     	  </td>
-        <td><a class="btn-floating btn-large red" data-confirm="Are you sure you want to delete <%= artist.name %>?" data-method="delete" href="/artists/<%= artist.id %>" rel="nofollow"><i class="large material-icons">Delete Artist</i>
+      <!--  <td><a class="btn-floating btn-large red" data-confirm="Are you sure you want to delete <%= artist.name %>?" data-method="delete" href="/artists/<%= artist.id %>" rel="nofollow"><i class="large material-icons">Delete Artist</i>
     	   </a>
         </td>
+	      
+	                 -->
+<td> 
+           <%= button_to "Delete", artist_path(artist.id), method: :delete,
+              data: { confirm: "Are you sure?" } %>
+              </td>
       </tr>
   <% end %>
 </table>
