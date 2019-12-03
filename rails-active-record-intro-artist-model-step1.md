@@ -139,7 +139,7 @@ Let's kick the tires with Rails, MySQL and Active Record. We'll start building t
 2. `rails g model Artist name hometown img albums:integer`
 	- This command will create a **migration file** that will let the database know about our new Model
 3. Run `rails db:migrate`
-	- This command will write the **migration** file information to our `schema.rb`. It'll tell our Postgresql database to create an `artists` table with the appropriate fields.
+	- This command will write the **migration** file information to our `schema.rb`. It'll tell our MySQL database to create an `artists` table with the appropriate fields.
 
 
 ### Seed our database with artists
@@ -330,7 +330,7 @@ In this lesson we dove into some dense topics:
 
 - Relational Databases
 - SQL (Structured Query Language)
-- Postgresql
+- MySQL
 - ORM (Object Relational Mapper)
 - Active Record
 
