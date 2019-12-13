@@ -118,7 +118,7 @@ Cool, like before, let me give you some song data to seed your database with son
 
 	`rails db:drop db:create db:migrate db:seed`
 	
-	We can run `rails db:reset`
+	Not Recommended: We can run `rails db:reset`(for drop and create only)
 
 4. Cool, let's go into `rails c` and make sure that our database has our Songs:
 
