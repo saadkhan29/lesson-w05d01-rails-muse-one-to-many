@@ -559,20 +559,6 @@ end
 ```
 
 
-
-<br>
-
-## Rails Resources Routes
-
-```ruby
-Rails.application.routes.draw do
-  root "artists#index"
-
-  resources :artists, :songs
-
-end
-```
-
 <br>
 
 ![Imgur](http://i.imgur.com/wPefQjh.png)
