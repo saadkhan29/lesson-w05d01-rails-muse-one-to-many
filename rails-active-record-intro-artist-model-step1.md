@@ -115,7 +115,7 @@ Anytime we want to change or update something in our database we need to run a *
 ## Generate the Muse Rails App
 1. `cd` into the directory that you want to create your app
 1. Run this in your Terminal `rails new muse -d mysql` to generate a new Rails app called Muse
-	- `-d mysql` tells Rails that we want to use a MySQL database instead of SQLite3 (the default). This adds `gem pg` to our `Gemfile`
+	- `-d mysql` tells Rails that we want to use a MySQL database instead of SQLite3 (the default). This adds gem of mysql to our `Gemfile`
 2. Be sure to `cd` into the `muse` project folder and open the project in your IDE of choice
 4. Run `rails db:create db:migrate` to initialize our database and create a `db/schema.rb` file
 5. Open a new Terminal tab and start the Rails server with `rails s`. You'll want to keep the server running in a seperate window to make your workflow easier.
