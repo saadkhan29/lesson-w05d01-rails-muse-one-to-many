@@ -558,63 +558,7 @@ def create
 end
 ```
 
-<br>
 
-## Strong Parameters
-
-Rails is very big on security. Rails makes you specifically whitelist the parameters that you want to pass to the database. These are called [strong parameters](https://edgeguides.rubyonrails.org/action_controller_overview.html#strong-parameters). Here iss our refactored Artists Controller:
-
-```ruby
-class ArtistsController < ApplicationController
-  def index
-    @artists = Artist.all
-  end
-
-  def show
-    @artist = Artist.find(params[:id])
-    @songs = @artist.songs
-  end
-
-  def new
-    @artist = Artist.new
-  end
-
-  def create
-    Artist.create(person_params)
-    redirect_to artists_path
-  end
-
-  def edit
-    @artist = Artist.find(params[:id])
-  end
-
-  def update
-    artist = Artist.find(params[:id])
-    artist.update(person_params)
-      
-    redirect_to artist
-  end
-
-  def destroy
-    Artist.find(params[:id]).destroy
-  
-    redirect_to artists_path
-  end
-
-  private
-    
-    def person_params
-      params.require(:artist).permit(:name, :albums, :hometown, :img)
-    end
-end
-```
-
-
-<br>
-
-![youdo](http://i.imgur.com/ylb6WX9.gif)
-
-- Refactor your Songs Controller to use strong parameters
 
 <br>
 
