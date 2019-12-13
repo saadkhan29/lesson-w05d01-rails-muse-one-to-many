@@ -133,8 +133,7 @@ gem install mysql2
 
 Let's kick the tires with Rails, MySQL and Active Record. We'll start building the data layer of our Muse app by creating an `Artist` model.
 
-1. Make sure to `cd` into your Muse App directory. Some starter code is [here](https://github.com/marcwright/muse-wdir) if you want to clone. Be sure to pull the `muse-setup` branch. That's the starting point for this lesson.
-
+1. Make sure to `cd` into your Muse App directory. 
 
 2. `rails g model Artist name hometown img albums:integer`
 	- This command will create a **migration file** that will let the database know about our new Model
