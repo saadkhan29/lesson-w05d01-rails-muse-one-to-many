@@ -63,10 +63,7 @@ columns on the command line, Rails will automatically generate the correct migra
 		![](https://i.imgur.com/H2RgneM.png)
 
 
-2. Run `rails db:migrate`. This will generate a Song model, with `artist_id`, `title`, and `genre` columns. We can look at `db/schema.rb` file to confirm:
-
-    ![](screenshots/schema.png)
-
+2. Run `rails db:migrate`. This will generate a Song model, with `artist_id`, `title`, and `genre` columns. We can look at `db/schema.rb` file to confirm.
 
 
 <br>
