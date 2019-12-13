@@ -303,4 +303,4 @@ In this lesson we:
 
 ## Labtime
 
-Add onto the `books-app` you started yesterday that was based on the previous lessons. Go through this lesson and instead of `Song` add a `Book` model to your app.
+Add onto the `books-app` you started, that was based on the previous lesson. Go through this lesson and instead of `Song` add a `Book` model to your app.
