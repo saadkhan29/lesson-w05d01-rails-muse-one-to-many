@@ -1,13 +1,3 @@
----
-title: Rails Routes, Views, Controllers, Forms
-type: lesson
-duration: 60 min
-creator:
-    name: Marc Wright
-    city: WDIR
-competencies: Programming
-
----
 
 [![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
@@ -27,10 +17,6 @@ competencies: Programming
 In the previous lessons we created `Artist` and `Song` models and relationships. Up to this point we did all of our work in `rails c`. Let's add some views so our users can interact with our site.
 
 Up to this point in our Muse app, we've worked with the **Model** or data layer. Now we're gonna add some **Controllers** and **Views** to complete the **MVC** convention.
-
-### Set-up
-
-Make sure to `cd` into your Muse App directory. Some starter code is [here](https://github.com/marcwright/muse-wdir) if you want to clone. Be sure to pull the `song-model` branch. That's the starting point for this lesson.
 
 <br>
 
