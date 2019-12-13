@@ -16,7 +16,7 @@ _After this lesson, students will be able to:_
 - Perform CRUD actions on one model
 
 
-## Framing: Review One-to-Many Relationships (5 min)
+## Framing: Review One-to-Many Relationships
 
 
 Previously, we created a Rails app using an `Artist` as our model. In this lesson, we're gonna add a `Song` model that will belong to the `Artist`. Since an `Artist` typically has many songs we're gonna create a One to Many Relationship between the two models.
@@ -46,12 +46,12 @@ Now, how can we relate the books that belong to a given author? We add an `autho
 
 <br>
 
-### Generating the Model / Migration (5 min)
+### Generating the Model / Migration
 
 We can generate the `Song` model just like our `Artist` model! If we specify the attributes (i.e.
 columns on the command line, Rails will automatically generate the correct migration for us.)
 
-**YOU DO** - Based on what we covered this morning in creating an `Artist` model... what would be the rails command to create a `Song` model with title, genre, and length attributes?
+**YOU DO** - Based on what we covered this morning in creating an `Artist` model... what would be the rails command to create a `Song` model with title and genre attributes?
 
 1. From the command line, generate the `Song` model:
 
