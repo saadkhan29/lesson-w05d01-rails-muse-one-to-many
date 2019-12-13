@@ -562,7 +562,7 @@ end
 
 ## Strong Parameters
 
-Rails is very big on security. Rails makes you specifically whitelist the parameters that you want passed to the database. These are called [strong parameters](https://edgeguides.rubyonrails.org/action_controller_overview.html#strong-parameters). Here iss our refactored Artists Controller:
+Rails is very big on security. Rails makes you specifically whitelist the parameters that you want to pass to the database. These are called [strong parameters](https://edgeguides.rubyonrails.org/action_controller_overview.html#strong-parameters). Here iss our refactored Artists Controller:
 
 ```ruby
 class ArtistsController < ApplicationController
