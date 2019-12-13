@@ -226,12 +226,12 @@ Active Record provides a rich API for accessing data within a database. Below
 are a few examples of different data access methods provided by Active Record.
 
 ```ruby
-# return a collection of all students
+# return a collection of all Artists
 artists = Artist.all
 ```
 
 ```ruby
-# return the first student
+# return the first Artist
 first_artist = Artist.first
 ```
 
