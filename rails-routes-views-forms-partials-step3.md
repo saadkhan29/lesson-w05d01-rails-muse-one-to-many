@@ -147,7 +147,6 @@ class ArtistsController < ApplicationController
 end
 ```
 
-**CFU** - Why do we use the @ variable? What is that called? How do we have Ruby code render in our HTML pages? `clown hats` what does the `=` do?
 
 **YOU DO** Try to get the `@artist` to render on your index page. It doesn't have to be pretty. How will we do this?
 
