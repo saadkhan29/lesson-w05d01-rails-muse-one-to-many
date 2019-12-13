@@ -120,10 +120,7 @@ Anytime we want to change or update something in our database we need to run a *
 4. Run `rails db:create db:migrate` to initialize our database and create a `db/schema.rb` file
 5. Open a new Terminal tab and start the Rails server with `rails s`. You'll want to keep the server running in a seperate window to make your workflow easier.
 6. In your browser, navigate to `http://localhost:3000`. You should see the Rails welcome page
-6. Let's go ahead and make our first `git` commit:
 
-    - `git add -A`
-    - `git commit -m "first commit - created and migrated database"`
 
 <br>
 
