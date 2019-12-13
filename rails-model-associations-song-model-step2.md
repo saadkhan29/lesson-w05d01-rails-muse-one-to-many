@@ -43,9 +43,6 @@ Note that both authors and books each have their own `id` field. These are prima
 
 Now, how can we relate the books that belong to a given author? We add an `author_id` field, or foreign key, to the books table. The `author_id` will be the `id` of the author who wrote  the book.
 
-### Set-up
-
-Make sure to `cd` into your Muse App directory. Some starter code is [here](https://github.com/marcwright/muse-wdir) if you want to clone. Be sure to pull the `artist-model` branch. That's the starting point for this lesson.
 
 <br>
 
