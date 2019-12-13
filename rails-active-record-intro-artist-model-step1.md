@@ -312,12 +312,6 @@ Artist.all 	#=> confirm she's been deleted
 
 <br>
 
-## `git commit`
-	
-- `git add -A`
-- `git commit -m "created the artist model seeded the database"` 
-
-<br>
 
 ![Imgur](http://i.imgur.com/wPefQjh.png)
 
