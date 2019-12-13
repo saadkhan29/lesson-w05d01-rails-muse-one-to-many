@@ -88,7 +88,7 @@ It just so happens you will be learning one of the best ORM's on the market (Act
 
 Active Record will be a "translator" between what data the user requests and our database. It'll generate the complex SQL queries for us.
 
-To use a restaurant metaphor:
+To use a restaurant metaphor (a figure of speech in which a word or phrase is applied to an object or action to which it is not literally applicable.):
 
 - The user is the customer
 - Active Record is the waiter that takes our request to the kitchen
