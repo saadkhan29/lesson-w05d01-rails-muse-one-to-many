@@ -129,7 +129,6 @@ Cool, like before, let me give you some song data to seed your database with son
 	rihanna = Artist.first
 	rihanna.songs
 	```
-5. `git add -A` and `git commit -m "added has_many songs to artists and seeded the songs"`
 
 <br>
 
